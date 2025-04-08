@@ -1,6 +1,13 @@
-/*
+/* 
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Methods: GET, HEAD, OPTIONS
   Access-Control-Allow-Headers: *
   Cross-Origin-Embedder-Policy: require-corp
   Cross-Origin-Opener-Policy: same-origin
+
+/Build/*.js
+  Content-Type: application/javascript
+  Content-Encoding:
+
+/Build/*.wasm
+  Content-Type: application/wasm
