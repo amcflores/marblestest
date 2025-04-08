@@ -27,10 +27,10 @@
       const assetBase = "https://marblestest.netlify.app/";
     
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: discordProxy + assetBase + "Build/MarbleBuild.data",
-        frameworkUrl: discordProxy + assetBase + "Build/MarbleBuild.framework.js",
-        codeUrl: discordProxy + assetBase + "Build/MarbleBuild.wasm",
-        streamingAssetsUrl: discordProxy + assetBase + "StreamingAssets",
+        dataUrl: assetBase + "Build/MarbleBuild.data",
+        frameworkUrl: assetBase + "Build/MarbleBuild.framework.js",
+        codeUrl: assetBase + "Build/MarbleBuild.wasm",
+        streamingAssetsUrl: assetBase + "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Marble",
         productVersion: "0.1"
